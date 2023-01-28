@@ -115,5 +115,6 @@ function finishGame(){
 
 function newGame(){
   board.innerHTML = '';
+  store = 0;
   screens[1].classList.remove('up')
 }
