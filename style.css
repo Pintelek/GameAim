@@ -146,3 +146,10 @@ h1 {
 .newStart:active{
   background: #323d49;
 }
+
+@media(max-width:800px){
+  .board{ 
+    width: 90vw;
+    height: 90vh;
+  }
+}

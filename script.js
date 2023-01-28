@@ -97,7 +97,7 @@ function getRandomColor(){
   return allColor[key];
 }
 
-function finishGame(){
+function finishGame(){  
   document.querySelector('.circle').remove();
   timeElem.parentElement.classList.add('hidden');
 
