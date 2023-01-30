@@ -148,6 +148,9 @@ h1 {
 }
 
 @media(max-width:800px){
+  .screen{
+    align-items: flex-start;
+  }
   .board{ 
     width: 90vw;
     height: 70vh;
