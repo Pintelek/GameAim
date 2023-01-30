@@ -102,7 +102,8 @@ h1 {
   border-radius: 50%;
   cursor: pointer;
 }
-.alert{
+
+.alert {
   font-size: 25px;
   color: rgb(69, 143, 177);
   padding: 15px;
@@ -113,21 +114,23 @@ h1 {
   animation: alert ease-in 1500ms infinite;
 }
 
-@keyframes alert{
-  0%{
+@keyframes alert {
+  0% {
     background: transparent;
   }
-  50%{
+
+  50% {
     background: #751370;
     color: #06ffde;
     box-shadow: 0 0 10px #751370;
   }
-  100%{
+
+  100% {
     background: transparent;
   }
 }
 
-.newStart{
+.newStart {
   margin-top: 15px;
   background: #29323c;
   border-radius: 6px;
@@ -140,18 +143,19 @@ h1 {
   font-weight: 700;
 }
 
-.newStart:hover{
+.newStart:hover {
   background: #1d2024;
 }
-.newStart:active{
+
+.newStart:active {
   background: #323d49;
 }
 
-@media(max-width:800px){
-  .screen{
-    align-items: flex-start;
+@media(max-width:800px) {
+  .screen {
+    justify-content: center;
   }
-  .board{ 
+  .board {
     width: 90vw;
     height: 70vh;
   }
